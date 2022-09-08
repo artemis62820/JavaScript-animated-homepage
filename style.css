@@ -1,0 +1,111 @@
+* , :: avant , :: après {
+    box-sizing : border-box;
+    marge :  0 ;
+    rembourrage :  0 ;
+}
+
+corps {
+    fond :  # 333 ;
+    famille de polices : Arial , Helvetica , sans-serif ;
+    hauteur :  100 vh ;
+    background :  url ( 'ressources/foretlumdown.jpg' );
+    background-repeat : pas de répétition ;
+    background-size : couverture;
+    position : relative ;
+    débordement-x : caché ;
+}
+
+. conteneur en premier {
+    position : absolue ;
+    haut :  30 % ;
+    gauche :  5 % ;
+}
+
+h1 {
+    text-transform : majuscule ;
+    font-size: 110px;
+    couleur :  # f1f1f1 ;
+    font-family: Abril fatface, sans-serif;
+}
+h1  étendue {
+    position : relative ;
+}
+. conteneur-btns {
+    position : relative ;
+    haut :  50 px ;
+}
+. btn-premier {
+    bordure :  2 px solide # f1f1f1 ;
+    contour : aucun;
+    fond : transparent;
+    taille de police :  30 px ;
+    rembourrage :  20 px ;
+    largeur :  300 px ;
+    couleur :  # f1f1f1 ;
+    curseur : pointeur;
+}
+. btn-first : nth-child ( 1 ){
+    marge droite :  30 px ;
+}
+. btn-first : survolez {
+    transition : toutes les 0,3 s d'entrée et de sortie ;
+    fond :  # f1f1f1 ;
+    couleur :  # 333 ;
+}
+.lignes {
+    position : absolue ;
+    haut :  6 % ;
+    gauche :  5 % ;
+}
+. l1 {
+    largeur :  250 px ;
+    hauteur :  3 px ;
+    fond :  # f1f1f1 ;
+    rayon de bordure :  5 px ;
+}
+. l2 {
+    largeur :  140 px ;
+    hauteur :  3 px ;
+    fond :  # f1f1f1 ;
+    rayon de bordure :  5 px ;
+    position : relative ;
+    haut :  20 px ;
+}
+
+. logo {
+    position : absolue ;
+    droite :  2,9 % ;
+    haut :  4 % ;
+    largeur :  80 px ;
+    hauteur :  80 px ;
+    curseur : pointeur;
+}
+. bas {
+    type de style de liste : aucun ;
+    position : absolue ;
+    droite :  3,3 % ;
+    haut :  50 % ;
+    transformer :  translateY ( -50 % );
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+    flex-direction : colonne ;
+}
+.bulle {
+    largeur :  60 px ;
+    hauteur :  60 px ;
+    rayon de bordure :  50 % ;
+    bordure :  1 px solide # f1f1f1 ;
+    affichage : flexible ;
+    justifier-contenu : center;
+    align-items : center;
+    marge :  10 px  0 ;
+    fond :  # f1f1f1 ;
+    curseur : pointeur;
+    position : relative ;
+}
+
+. logo-media {
+    largeur :  40 px ;
+    hauteur :  40 px ;
+}

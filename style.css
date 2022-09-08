@@ -1,111 +1,111 @@
-* , :: avant , :: après {
-    box-sizing : border-box;
-    marge :  0 ;
-    rembourrage :  0 ;
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-corps {
-    fond :  # 333 ;
-    famille de polices : Arial , Helvetica , sans-serif ;
-    hauteur :  100 vh ;
-    background :  url ( 'ressources/foretlumdown.jpg' );
-    background-repeat : pas de répétition ;
-    background-size : couverture;
-    position : relative ;
-    débordement-x : caché ;
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: url('ressources/foretlumdown.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
 }
 
-. conteneur en premier {
-    position : absolue ;
-    haut :  30 % ;
-    gauche :  5 % ;
+.container-first {
+    position: absolute;
+    top: 30%;
+    left: 5%;
 }
 
 h1 {
-    text-transform : majuscule ;
+    text-transform: uppercase;
     font-size: 110px;
-    couleur :  # f1f1f1 ;
+    color: #f1f1f1;
     font-family: Abril fatface, sans-serif;
 }
-h1  étendue {
-    position : relative ;
+h1 span {
+    position: relative;
 }
-. conteneur-btns {
-    position : relative ;
-    haut :  50 px ;
+.container-btns {
+    position: relative;
+    top: 50px;
 }
-. btn-premier {
-    bordure :  2 px solide # f1f1f1 ;
-    contour : aucun;
-    fond : transparent;
-    taille de police :  30 px ;
-    rembourrage :  20 px ;
-    largeur :  300 px ;
-    couleur :  # f1f1f1 ;
-    curseur : pointeur;
+.btn-first {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
 }
-. btn-first : nth-child ( 1 ){
-    marge droite :  30 px ;
+.btn-first:nth-child(1){
+    margin-right: 30px;
 }
-. btn-first : survolez {
-    transition : toutes les 0,3 s d'entrée et de sortie ;
-    fond :  # f1f1f1 ;
-    couleur :  # 333 ;
+.btn-first:hover {
+    transition: all 0.3s ease-in-out;
+    background: #f1f1f1;
+    color: #333;
 }
 .lignes {
-    position : absolue ;
-    haut :  6 % ;
-    gauche :  5 % ;
+    position: absolute;
+    top: 6%;
+    left: 5%;
 }
-. l1 {
-    largeur :  250 px ;
-    hauteur :  3 px ;
-    fond :  # f1f1f1 ;
-    rayon de bordure :  5 px ;
+.l1 {
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
 }
-. l2 {
-    largeur :  140 px ;
-    hauteur :  3 px ;
-    fond :  # f1f1f1 ;
-    rayon de bordure :  5 px ;
-    position : relative ;
-    haut :  20 px ;
+.l2 {
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
 }
 
-. logo {
-    position : absolue ;
-    droite :  2,9 % ;
-    haut :  4 % ;
-    largeur :  80 px ;
-    hauteur :  80 px ;
-    curseur : pointeur;
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
 }
-. bas {
-    type de style de liste : aucun ;
-    position : absolue ;
-    droite :  3,3 % ;
-    haut :  50 % ;
-    transformer :  translateY ( -50 % );
-    affichage : flexible ;
-    justifier-contenu : center;
-    align-items : center;
-    flex-direction : colonne ;
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .bulle {
-    largeur :  60 px ;
-    hauteur :  60 px ;
-    rayon de bordure :  50 % ;
-    bordure :  1 px solide # f1f1f1 ;
-    affichage : flexible ;
-    justifier-contenu : center;
-    align-items : center;
-    marge :  10 px  0 ;
-    fond :  # f1f1f1 ;
-    curseur : pointeur;
-    position : relative ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
 }
 
-. logo-media {
-    largeur :  40 px ;
-    hauteur :  40 px ;
+.logo-medias {
+    width: 40px;
+    height: 40px;
 }
